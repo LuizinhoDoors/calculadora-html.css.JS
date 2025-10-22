@@ -40,35 +40,7 @@ html
     <script src="script.js" defer></script>
 </body>
 </html>
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-CSS
 
-}
-.botoes {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
-}
-button {
-  padding: 10px;
-  font-size: 18px;
-  border: none;
-  background-color: #000000;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-button:hover {
-  background-color: #000000;
-}
-.operador {
-  background-color: #ff1100;
-}
-.operador:hover {
-  background-color: #da190b;
-}
-
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 JAVASCRIPT
 
 function adicionar(valor) {
